@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '文档'
+title: 'feng'
 subtitle: 'f1'
 description: 'f2'
 keywords:
@@ -105,3 +105,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/fengpiaoxianle/fengpiaoxianle
+  branch: gh-pages
