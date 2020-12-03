@@ -105,4 +105,3 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/fengpiaoxianle/fengpiaoxianle
-  branch: gh-pages
