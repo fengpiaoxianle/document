@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - source  # default branch
-
+      - master
 jobs:
   pages:
     runs-on: ubuntu-latest
@@ -31,3 +31,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
+          publish_branch: gh-pages
